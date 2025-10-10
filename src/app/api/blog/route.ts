@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server" // APIレスポンスを作成するために使用
-import { PrismaClient } from "../../generated/prisma" // PrismaClientを使用してデータベースに接続
+import { PrismaClient } from "../../../generated/prisma" // PrismaClientを使用してデータベースに接続
 
 // データベース操作に使うクライアントインスタンスを作成
 const prisma = new PrismaClient()
