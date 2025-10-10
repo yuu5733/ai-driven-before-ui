@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server"; // Next.jsのAPIレスポンスを生成するために使用
-import { PrismaClient } from "../../../generated/prisma"; // PrismaClientを使用してデータベースに接続（操作）
+import { PrismaClient } from "../../../../generated/prisma"; // PrismaClientを使用してデータベースに接続（操作）
 
 import { main } from "../route"; // データベースに接続するための非同期関数
 
